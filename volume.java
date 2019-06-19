@@ -7,7 +7,7 @@ class Volume
 		double r,vol;
 		System.out.println("Enter the radius");
 		r = sc.nextDouble();
-		vol=(4*3.14*r*r*r)/3;
+		vol = (4*3.14*r*r*r)/3;
 		System.out.println("The volume of the sphere is:  " +vol);
 	}
 }
